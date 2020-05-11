@@ -8,6 +8,6 @@ target 'ZMRouter_Example' do
   target 'ZMRouter_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    
   end
 end

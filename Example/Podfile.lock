@@ -1,0 +1,16 @@
+PODS:
+  - ZMRouter (0.1.0)
+
+DEPENDENCIES:
+  - ZMRouter (from `../`)
+
+EXTERNAL SOURCES:
+  ZMRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMRouter: 93f898c8e21147bf2937b91ec9658e2c688972e5
+
+PODFILE CHECKSUM: 1b2c7f5d255b37ea02da6d62390475f4795dea21
+
+COCOAPODS: 1.8.4

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		357A385CF72839DC98BB4E94 /* Pods_ZMRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD9E61B5E9F51FA5A63673 /* Pods_ZMRouter_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ZMAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZMViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,6 +22,26 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A0060631CED4DACC9F440B0E /* Pods_ZMRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1648D0CA7D82F61C7F27A85A /* Pods_ZMRouter_Tests.framework */; };
+		E963BC8A2469376D004FF16F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC722469376C004FF16F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E963BC8B2469376D004FF16F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC7B2469376C004FF16F /* ViewController+MASAdditions.m */; };
+		E963BC8C2469376D004FF16F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC7F2469376C004FF16F /* MASCompositeConstraint.m */; };
+		E963BC8D2469376D004FF16F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC802469376C004FF16F /* MASConstraintMaker.m */; };
+		E963BC8E2469376D004FF16F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC812469376C004FF16F /* MASLayoutConstraint.m */; };
+		E963BC8F2469376D004FF16F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC822469376C004FF16F /* NSArray+MASAdditions.m */; };
+		E963BC902469376D004FF16F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC832469376C004FF16F /* View+MASAdditions.m */; };
+		E963BC912469376D004FF16F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC862469376C004FF16F /* MASConstraint.m */; };
+		E963BC922469376D004FF16F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC882469376C004FF16F /* MASViewConstraint.m */; };
+		E963BC932469376D004FF16F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC892469376C004FF16F /* MASViewAttribute.m */; };
+		E963BC9624693817004FF16F /* ZMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC9524693817004FF16F /* ZMBaseNavigationController.m */; };
+		E963BC9924693965004FF16F /* ZMHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC9824693965004FF16F /* ZMHomePageViewController.m */; };
+		E963BC9C2469398A004FF16F /* ZMDebugSBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC9B2469398A004FF16F /* ZMDebugSBViewController.m */; };
+		E963BC9F24693DA4004FF16F /* ZMColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BC9E24693DA4004FF16F /* ZMColorViewController.m */; };
+		E963BCA224693DC8004FF16F /* ZMDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BCA124693DC8004FF16F /* ZMDetailsViewController.m */; };
+		E963BCA524693DD4004FF16F /* ZMOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BCA424693DD4004FF16F /* ZMOrderViewController.m */; };
+		E963BCA824693E10004FF16F /* ZMScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BCA724693E10004FF16F /* ZMScrollViewController.m */; };
+		E963BCAB24693E26004FF16F /* ZMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BCAA24693E26004FF16F /* ZMTableViewController.m */; };
+		E963BCAE24693E32004FF16F /* ZMUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E963BCAD24693E32004FF16F /* ZMUserCenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4853C45D9821B3A6E21B8E81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1648D0CA7D82F61C7F27A85A /* Pods_ZMRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZMRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,8 +66,6 @@
 		6003F59B195388D20070C39A /* ZMRouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMRouter-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ZMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ZMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ZMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ZMRouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMRouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,10 +73,59 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		67312ED4B97CE8B57DE9B11F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776D465F7A0F9970811B6DBD /* Pods-ZMRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZMRouter_Example/Pods-ZMRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8249A15AD1658C3EEBCF3FF3 /* Pods-ZMRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZMRouter_Tests/Pods-ZMRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5BA606F7E404FE0FE68F3A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FD36CA5093A9EBF430030A29 /* ZMRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZMRouter.podspec; path = ../ZMRouter.podspec; sourceTree = "<group>"; };
+		B2CDCA2E3CCC5EE1108AFCAF /* Pods-ZMRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-ZMRouter_Example/Pods-ZMRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BD94FECF7821369F5BA29BCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BF322F60CE51E2CE3CB670D4 /* Pods-ZMRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZMRouter_Tests/Pods-ZMRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AD9E61B5E9F51FA5A63673 /* Pods_ZMRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E963BC712469376C004FF16F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E963BC722469376C004FF16F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		E963BC732469376C004FF16F /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E963BC742469376C004FF16F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		E963BC752469376C004FF16F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E963BC762469376C004FF16F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		E963BC772469376C004FF16F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		E963BC782469376C004FF16F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E963BC792469376C004FF16F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		E963BC7A2469376C004FF16F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		E963BC7B2469376C004FF16F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		E963BC7C2469376C004FF16F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		E963BC7D2469376C004FF16F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		E963BC7E2469376C004FF16F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E963BC7F2469376C004FF16F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E963BC802469376C004FF16F /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		E963BC812469376C004FF16F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E963BC822469376C004FF16F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		E963BC832469376C004FF16F /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		E963BC842469376C004FF16F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E963BC852469376C004FF16F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		E963BC862469376C004FF16F /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		E963BC872469376C004FF16F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E963BC882469376C004FF16F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		E963BC892469376C004FF16F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		E963BC9424693817004FF16F /* ZMBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseNavigationController.h; sourceTree = "<group>"; };
+		E963BC9524693817004FF16F /* ZMBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseNavigationController.m; sourceTree = "<group>"; };
+		E963BC9724693965004FF16F /* ZMHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMHomePageViewController.h; sourceTree = "<group>"; };
+		E963BC9824693965004FF16F /* ZMHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMHomePageViewController.m; sourceTree = "<group>"; };
+		E963BC9A2469398A004FF16F /* ZMDebugSBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMDebugSBViewController.h; sourceTree = "<group>"; };
+		E963BC9B2469398A004FF16F /* ZMDebugSBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMDebugSBViewController.m; sourceTree = "<group>"; };
+		E963BC9D24693DA4004FF16F /* ZMColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMColorViewController.h; sourceTree = "<group>"; };
+		E963BC9E24693DA4004FF16F /* ZMColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMColorViewController.m; sourceTree = "<group>"; };
+		E963BCA024693DC8004FF16F /* ZMDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMDetailsViewController.h; sourceTree = "<group>"; };
+		E963BCA124693DC8004FF16F /* ZMDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMDetailsViewController.m; sourceTree = "<group>"; };
+		E963BCA324693DD4004FF16F /* ZMOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMOrderViewController.h; sourceTree = "<group>"; };
+		E963BCA424693DD4004FF16F /* ZMOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMOrderViewController.m; sourceTree = "<group>"; };
+		E963BCA624693E10004FF16F /* ZMScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMScrollViewController.h; sourceTree = "<group>"; };
+		E963BCA724693E10004FF16F /* ZMScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMScrollViewController.m; sourceTree = "<group>"; };
+		E963BCA924693E26004FF16F /* ZMTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTableViewController.h; sourceTree = "<group>"; };
+		E963BCAA24693E26004FF16F /* ZMTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTableViewController.m; sourceTree = "<group>"; };
+		E963BCAC24693E32004FF16F /* ZMUserCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMUserCenterViewController.h; sourceTree = "<group>"; };
+		E963BCAD24693E32004FF16F /* ZMUserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMUserCenterViewController.m; sourceTree = "<group>"; };
+		EDA7190D73B4FCF57AFE5EC4 /* ZMRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZMRouter.podspec; path = ../ZMRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +136,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				357A385CF72839DC98BB4E94 /* Pods_ZMRouter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +147,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				A0060631CED4DACC9F440B0E /* Pods_ZMRouter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D27FB1D6324406A91378760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776D465F7A0F9970811B6DBD /* Pods-ZMRouter_Example.debug.xcconfig */,
+				B2CDCA2E3CCC5EE1108AFCAF /* Pods-ZMRouter_Example.release.xcconfig */,
+				BF322F60CE51E2CE3CB670D4 /* Pods-ZMRouter_Tests.debug.xcconfig */,
+				8249A15AD1658C3EEBCF3FF3 /* Pods-ZMRouter_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +173,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				5D27FB1D6324406A91378760 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +193,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				C5AD9E61B5E9F51FA5A63673 /* Pods_ZMRouter_Example.framework */,
+				1648D0CA7D82F61C7F27A85A /* Pods_ZMRouter_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,11 +202,13 @@
 		6003F593195388D20070C39A /* Example for ZMRouter */ = {
 			isa = PBXGroup;
 			children = (
+				E963BC702469376C004FF16F /* Masonry */,
+				E963BC6F2469376C004FF16F /* Sections */,
 				6003F59C195388D20070C39A /* ZMAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ZMViewController.h */,
-				6003F5A6195388D20070C39A /* ZMViewController.m */,
+				E963BC9724693965004FF16F /* ZMHomePageViewController.h */,
+				E963BC9824693965004FF16F /* ZMHomePageViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -165,11 +250,66 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FD36CA5093A9EBF430030A29 /* ZMRouter.podspec */,
-				C5BA606F7E404FE0FE68F3A4 /* README.md */,
-				4853C45D9821B3A6E21B8E81 /* LICENSE */,
+				EDA7190D73B4FCF57AFE5EC4 /* ZMRouter.podspec */,
+				67312ED4B97CE8B57DE9B11F /* README.md */,
+				BD94FECF7821369F5BA29BCC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E963BC6F2469376C004FF16F /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				E963BC9424693817004FF16F /* ZMBaseNavigationController.h */,
+				E963BC9524693817004FF16F /* ZMBaseNavigationController.m */,
+				E963BC9A2469398A004FF16F /* ZMDebugSBViewController.h */,
+				E963BC9B2469398A004FF16F /* ZMDebugSBViewController.m */,
+				E963BC9D24693DA4004FF16F /* ZMColorViewController.h */,
+				E963BC9E24693DA4004FF16F /* ZMColorViewController.m */,
+				E963BCA024693DC8004FF16F /* ZMDetailsViewController.h */,
+				E963BCA124693DC8004FF16F /* ZMDetailsViewController.m */,
+				E963BCA324693DD4004FF16F /* ZMOrderViewController.h */,
+				E963BCA424693DD4004FF16F /* ZMOrderViewController.m */,
+				E963BCA624693E10004FF16F /* ZMScrollViewController.h */,
+				E963BCA724693E10004FF16F /* ZMScrollViewController.m */,
+				E963BCA924693E26004FF16F /* ZMTableViewController.h */,
+				E963BCAA24693E26004FF16F /* ZMTableViewController.m */,
+				E963BCAC24693E32004FF16F /* ZMUserCenterViewController.h */,
+				E963BCAD24693E32004FF16F /* ZMUserCenterViewController.m */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		E963BC702469376C004FF16F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E963BC712469376C004FF16F /* MASCompositeConstraint.h */,
+				E963BC7F2469376C004FF16F /* MASCompositeConstraint.m */,
+				E963BC7D2469376C004FF16F /* MASConstraint.h */,
+				E963BC862469376C004FF16F /* MASConstraint.m */,
+				E963BC732469376C004FF16F /* MASConstraint+Private.h */,
+				E963BC762469376C004FF16F /* MASConstraintMaker.h */,
+				E963BC802469376C004FF16F /* MASConstraintMaker.m */,
+				E963BC742469376C004FF16F /* MASLayoutConstraint.h */,
+				E963BC812469376C004FF16F /* MASLayoutConstraint.m */,
+				E963BC852469376C004FF16F /* Masonry.h */,
+				E963BC792469376C004FF16F /* MASUtilities.h */,
+				E963BC7A2469376C004FF16F /* MASViewAttribute.h */,
+				E963BC892469376C004FF16F /* MASViewAttribute.m */,
+				E963BC7C2469376C004FF16F /* MASViewConstraint.h */,
+				E963BC882469376C004FF16F /* MASViewConstraint.m */,
+				E963BC782469376C004FF16F /* NSArray+MASAdditions.h */,
+				E963BC822469376C004FF16F /* NSArray+MASAdditions.m */,
+				E963BC752469376C004FF16F /* NSArray+MASShorthandAdditions.h */,
+				E963BC7E2469376C004FF16F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				E963BC722469376C004FF16F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E963BC772469376C004FF16F /* View+MASAdditions.h */,
+				E963BC832469376C004FF16F /* View+MASAdditions.m */,
+				E963BC842469376C004FF16F /* View+MASShorthandAdditions.h */,
+				E963BC872469376C004FF16F /* ViewController+MASAdditions.h */,
+				E963BC7B2469376C004FF16F /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ZMRouter_Example" */;
 			buildPhases = (
+				951E886CA01BBF8C133AF76D /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				ED1135C323F4323A9DD5267F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZMRouter_Tests" */;
 			buildPhases = (
+				DDE29B892CC4697B2D593F5C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -225,11 +368,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ZMRouter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -266,14 +410,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		951E886CA01BBF8C133AF76D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMRouter_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE29B892CC4697B2D593F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMRouter_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1135C323F4323A9DD5267F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZMRouter_Example/Pods-ZMRouter_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZMRouter/ZMRouter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZMRouter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZMRouter_Example/Pods-ZMRouter_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E963BC8D2469376D004FF16F /* MASConstraintMaker.m in Sources */,
 				6003F59E195388D20070C39A /* ZMAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ZMViewController.m in Sources */,
+				E963BC8B2469376D004FF16F /* ViewController+MASAdditions.m in Sources */,
+				E963BC922469376D004FF16F /* MASViewConstraint.m in Sources */,
+				E963BC8E2469376D004FF16F /* MASLayoutConstraint.m in Sources */,
+				E963BC9C2469398A004FF16F /* ZMDebugSBViewController.m in Sources */,
+				E963BC912469376D004FF16F /* MASConstraint.m in Sources */,
+				E963BC9F24693DA4004FF16F /* ZMColorViewController.m in Sources */,
+				E963BCAE24693E32004FF16F /* ZMUserCenterViewController.m in Sources */,
+				E963BCA524693DD4004FF16F /* ZMOrderViewController.m in Sources */,
+				E963BC9624693817004FF16F /* ZMBaseNavigationController.m in Sources */,
+				E963BC8F2469376D004FF16F /* NSArray+MASAdditions.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E963BCAB24693E26004FF16F /* ZMTableViewController.m in Sources */,
+				E963BCA224693DC8004FF16F /* ZMDetailsViewController.m in Sources */,
+				E963BC8C2469376D004FF16F /* MASCompositeConstraint.m in Sources */,
+				E963BC9924693965004FF16F /* ZMHomePageViewController.m in Sources */,
+				E963BC902469376D004FF16F /* View+MASAdditions.m in Sources */,
+				E963BCA824693E10004FF16F /* ZMScrollViewController.m in Sources */,
+				E963BC8A2469376D004FF16F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				E963BC932469376D004FF16F /* MASViewAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +625,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776D465F7A0F9970811B6DBD /* Pods-ZMRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -407,12 +635,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CDCA2E3CCC5EE1108AFCAF /* Pods-ZMRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -422,12 +652,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF322F60CE51E2CE3CB670D4 /* Pods-ZMRouter_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +684,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8249A15AD1658C3EEBCF3FF3 /* Pods-ZMRouter_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -473,7 +706,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ZMRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
