@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZMRouter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZMRouter.'
+  s.summary          = 'ZMRouter,the ViewController push or present Router.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'the ViewController push or present Router,can suppout push, present, scheme or link open ViewController'
 
-  s.homepage         = 'https://github.com/acct<blob>=0xE4BD95E8AEB8E4BABA/ZMRouter'
+  s.homepage         = 'https://github.com/hexuren/ZMRouter.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=0xE4BD95E8AEB8E4BABA' => '529455009@qq.com' }
-  s.source           = { :git => 'https://github.com/acct<blob>=0xE4BD95E8AEB8E4BABA/ZMRouter.git', :tag => s.version.to_s }
+  s.author           = { 'hexuren' => '529455009@qq.com' }
+  s.source           = { :git => 'https://github.com/hexuren/ZMRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
